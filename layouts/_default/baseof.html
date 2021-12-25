@@ -3,6 +3,7 @@
     <head>
         {{ partial "head.html" . }}
         {{ partial "head.javascript.html" . }}
+        {{ block "extend-head" . }}{{ end }}
     </head>
 
     {{ block "body" . }}

@@ -22,7 +22,8 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
     - [Code highlighting](#code-highlighting)
     - [Favicon](#favicon)
     - [Audio Support](#audio-support)
-  - [Social Icons](#social-icons)
+    - [Extending head](#extending-head)
+  - [Social Icons:](#social-icons)
   - [Known issues](#known-issues)
   - [How to edit the theme](#how-to-edit-the-theme)
   - [Sponsoring](#sponsoring)
@@ -165,7 +166,22 @@ In your article add to your front matters part:
 audio: path/to/file.mp3
 ```
 
-## Social Icons
+### Extending head
+
+You can globally add HTML inside `<head>` tag by creating `layouts/partials/extra-head.html`.
+
+You can also inject into `<head>` tag on individual pages for their different needs using `extend-head` blocks:
+
+```html
+
+{{ define "extend-head" }}
+    ...
+    <!-- Custom meta tags, CSS imports etc. -->
+{{ end }}
+
+```
+
+## Social Icons:
 
 A large variety of social icons are available and can be configured like this:
 
