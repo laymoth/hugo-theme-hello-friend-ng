@@ -23,6 +23,9 @@ $dark-table-color: #4e4e57;
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
 
+/* Pre */
+$pre-color: #282a36;
+
 /* Variables for js, must be the same as these in @custom-media queries */
 :root {
   --phoneWidth: (max-width: 684px);

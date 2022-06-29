@@ -240,11 +240,11 @@ code {
 
 pre {
   [data-theme=dark] & {
-    background-color: $dark-background-secondary;
+    background-color: $pre-color;
   }
 
   [data-theme=light] & {
-    background-color: $light-background-secondary;
+    background-color: $pre-color;
   }
 
   padding: 10px 10px 10px 20px;
