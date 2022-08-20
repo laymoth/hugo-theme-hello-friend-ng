@@ -77,10 +77,10 @@ disableHugoGeneratorInject = false
   # Enable theme toggle
   # 
   # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
+  # Per default, this option is on. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
